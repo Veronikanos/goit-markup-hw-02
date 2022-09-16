@@ -4,7 +4,7 @@
 	--highlighted-color: #2196F3;
 	--white-color: #FFFFFF;
 	--header-footer-background-color: #2F303A;
-	--team-background-color: #F5F4FA;
+	--secondary-bg-color: #F5F4FA;
 }
 
 body {
@@ -65,9 +65,14 @@ button {
 	background-color: var(--header-footer-background-color)
 }
 
-.hero button {
+.hero-button {
 	color: var(--white-color);
 	background-color: var(--highlighted-color);
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.87;
+	text-align: center;
+	letter-spacing: 0.06em;
 }
 
 .hidden-header {
@@ -83,15 +88,17 @@ button {
 }
 
 .preferences-text {
-	font-size: 14px;
 	line-height: 1.7;
-	letter-spacing: 0.03em;
 	color: var(--secondary-color);
+}
 
+.description-text {
+	font-size: 14px;
+	letter-spacing: 0.03em;
 }
 
 .team {
-	background-color: var(--team-background-color);
+	background-color: var(--secondary-bg-color);
 	font-size: 16px;
 	line-height: 1.19;
 	letter-spacing: 0.03em;
@@ -114,9 +121,7 @@ footer {
 }
 
 .footer-address {
-	font-size: 14px;
 	line-height: 1.71;
-	letter-spacing: 0.03em;
 }
 
 .footer-contacts a {
@@ -133,4 +138,32 @@ footer {
 
 address {
 	font-style: normal;
+}
+
+.gallery-button {
+	background: var(--secondary-bg-color);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.gallery-button:hover {
+	background: var(--highlighted-color);
+	color: var(--white-color);
+}
+
+.projects-title {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+
+.projects-description {
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.03em;
+	color: var(--secondary-color);
 }
