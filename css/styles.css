@@ -2,6 +2,9 @@
 	--primary-color: #212121;
 	--secondary-color: #757575;
 	--highlighted-color: #2196F3;
+	--white-color: #FFFFFF;
+	--header-footer-background-color: #2F303A;
+	--team-background-color: #F5F4FA;
 }
 
 body {
@@ -21,9 +24,9 @@ a {
 .logo {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
-font-size: 26px;
-line-height: 1.2;
-letter-spacing: 0.03em;
+	font-size: 26px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
 }
 
 .highlight-text,
@@ -31,3 +34,103 @@ letter-spacing: 0.03em;
 	color: var(--highlighted-color);
 }
 
+.nav-links {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+
+.nav-links a:hover {
+	color: var(--highlighted-color);
+}
+
+button {
+	cursor: pointer;
+}
+
+.nav-contacts a,
+.team-text {
+	color: var(--secondary-color);
+}
+
+.hero h1 {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--white-color);
+	background-color: var(--header-footer-background-color)
+}
+
+.hero button {
+	color: var(--white-color);
+	background-color: var(--highlighted-color);
+}
+
+.hidden-header {
+	display: none;
+}
+
+.preferences-header {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.preferences-text {
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.03em;
+	color: var(--secondary-color);
+
+}
+
+.team {
+	background-color: var(--team-background-color);
+	font-size: 16px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+}
+
+.section-headers {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.team-member {
+	font-weight: 500;
+}
+
+footer {
+	background-color: var(--header-footer-background-color)
+}
+
+.footer-address {
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+}
+
+.footer-contacts a {
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: var(--secondary-color);
+}
+
+.logo-footer,
+.footer-address {
+	color: var(--white-color);
+}
+
+address {
+	font-style: normal;
+}
