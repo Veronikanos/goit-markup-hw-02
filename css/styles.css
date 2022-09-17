@@ -33,8 +33,7 @@ a {
 
 .highlight-text,
 .active,
-.nav-links a:hover
-.nav-links a:focus {
+.nav-links a:hover .nav-links a:focus {
 	color: var(--highlighted-color);
 }
 
@@ -68,6 +67,7 @@ a {
 	line-height: 1.87;
 	text-align: center;
 	letter-spacing: 0.06em;
+	font-family: inherit;
 }
 
 .hidden-header {
@@ -75,7 +75,7 @@ a {
 }
 
 .preferences-header {
-	font-size: 14px;
+	font-size: inherit;
 	font-weight: 700;
 	line-height: 1.14;
 	text-transform: uppercase;
@@ -87,21 +87,22 @@ a {
 	color: var(--secondary-color);
 }
 
-.team {
-	background-color: var(--secondary-bg-color);
-	font-size: 16px;
-	line-height: 1.19;
-}
-
 .section-headers {
 	font-weight: 700;
 	font-size: 36px;
-	line-height: 1.17;
+	line-height: 1.18;
 	text-align: center;
+}
+
+.team {
+	background-color: var(--secondary-bg-color);
+	font-size: 16px;
+	line-height: 1.18;
 }
 
 .team-member {
 	font-weight: 500;
+	font-size: 16px;
 }
 
 footer {
@@ -123,6 +124,7 @@ address {
 
 .gallery-button {
 	background: var(--secondary-bg-color);
+	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
@@ -132,7 +134,7 @@ address {
 }
 
 .gallery-button:hover,
-.gallery-button:focus{
+.gallery-button:focus {
 	background: var(--highlighted-color);
 	color: var(--white-color);
 }
